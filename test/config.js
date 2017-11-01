@@ -12,7 +12,8 @@ exports.config = {
             debug: false,
             verbose: false,
             host: 'api.mixpanel.com',
-            protocol: 'http'
+            protocol: 'http',
+            geolocate: false
         }, "default config is incorrect");
         test.done();
     },
